@@ -1,4 +1,6 @@
 //jsnack 1
+/*l'utente inserisce due numeri in successione, con due prompt. il software stampa il maggiore*/ 
+
 
 let numberOne = prompt('inserisci il primo numero:');
 let numberTwo = prompt('inserisci il secondo numero:');

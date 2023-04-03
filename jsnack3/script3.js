@@ -1,3 +1,8 @@
+//jsnack3
+/*il software deve richidere 10 volte all' utente di inserire un numero. il programma stampa la somma di tutti i numeri inseriti */ 
+
+
+
 
 //dichiaro una variabile con array vuoto
 let userNumber = [];
