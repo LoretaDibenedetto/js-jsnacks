@@ -4,22 +4,21 @@
 
 
 
-//dichiaro una variabile con array vuoto
-let userNumber = [];
+//dichiaro una variabile  vuota
 
+let sumUserNumber = 0;
 //normale ciclo for che itera da 1 a 10
 for (let i = 0; i< 10; i++){
 
-    //per ogni iterazione mi fara comparire un prompt
-  let number = prompt('inserisci un numero:');
-  //rendo il numero stringa un numero 
-  number = parseInt(number);
+    //per ogni iterazione mi fara comparire un prompt e rendo il numero stringa un numero
+  let number = parseInt(prompt("digita un numero:"));
+  // 
+  
 
-  //aggiungo numeri inseriti all'array
-  userNumber.push(number);
+  //sommo la variabile vuota con i numeri che passo di volta in volta
+  sumUserNumber += number ;
 
-
-}
+};
 //stampo in console
-console.log('i numeri inseriti sono: '  +' '+ userNumber);
+console.log("la somma dei numeri e':" + sumUserNumber);
 
