@@ -17,7 +17,7 @@ for(i= 0; i< 6; i++){
   //trasformo i numeri stringa in numeri
   userNumber = parseInt(userNumber);
   
-  //se i numeri in seriti divisi per 2 danno un resto diverso da 0 allora sono dispari
+  //se i numeri inseriti divisi per 2 danno un resto diverso da 0 allora sono dispari
    if (userNumber % 2 !== 0){
      
 

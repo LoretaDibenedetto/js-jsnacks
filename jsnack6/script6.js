@@ -11,7 +11,7 @@ console.log(randomNumber);
 //dichiaro una variabile che fa comparire un prompt che mi rende la stringa numero
 let userNumber = parseInt(prompt('inserisci un numero da 1 a 10'));
 
-//se il numero dell'utente e maggiore di 10 compare ub alert 
+//se il numero dell'utente e maggiore di 10 compare un alert 
 if(userNumber > 10) {
     alert('digita un numero da 1 a 10!');
 //stessa cosa se e' minore di 1
