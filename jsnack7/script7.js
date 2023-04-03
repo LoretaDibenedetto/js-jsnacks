@@ -24,7 +24,7 @@ for(i = 2; i <= userNumber;i++){
     if(i % 2 == 0){
 
         console.log(i);
-    }
+    };
     
 
 };
