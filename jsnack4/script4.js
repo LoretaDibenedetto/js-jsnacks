@@ -1,6 +1,6 @@
 //jsnack 4
 
-/*il software deve chiedere per 10 volte all'utente di inserire un numero, il programma stampa la somma di tutti i numeri inseriti*/ 
+/*gli array sono contenuti i nomi degli invitati, chiedi all'utente il suo nome e comunicagli se puo' partecipare o no alla festa */ 
 
 
 
@@ -14,9 +14,9 @@ let userName = prompt('inserisci il tuo nome:');
 
 let invitedList = invited.length;
 
-if(userName.includes(userName)){
+if(invited.includes(userName)){
 
-        console.log('tu  puoi passare');
+        console.log("lei  puo' passare");
     }else {
         console.log("lei non puo' entrare!");
     };
