@@ -5,18 +5,31 @@
 
 
 //array vuoto
-let number = [];
+let numberdis = [];
 
+//ciclo for
 for(i= 0; i< 6; i++){
 
-    let userNumber = prompt('inserisci un numero');
-    userNumber = parseInt(userNumber);
 
-    if(userNumber % 2 !== 0){
+  //inserisco un prompt
+  let userNumber =  prompt('inserisci numero');
 
-      userNumber.push(number);
+  //trasformo i numeri stringa in numeri
+  userNumber = parseInt(userNumber);
+  
+  //se i numeri in seriti divisi per 2 danno un resto diverso da 0 allora sono dispari
+   if (userNumber % 2 !== 0){
+     
+
+    //aggiungo i dispari nell' array vuoto
+    numberdis.push(userNumber);
+   };
+  
+
+
+
 
     };
-}
-
-console.log(number.length);
+   
+  
+console.log(numberdis);
